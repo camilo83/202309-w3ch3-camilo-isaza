@@ -15,7 +15,7 @@
     "sass": "sass scss:css -w --no-source-map"
   },
   "keywords": [],
-  "author": "Alejandro Cerezo",
+  "author": "Camilo Isaza",
   "license": "ISC",
   "prettier": {
     "singleQuote": true

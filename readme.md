@@ -1,54 +1,32 @@
-# Week3
+# Pet List
 
-Código de Week1 del bootcamp
+Cada mascota es un objeto con
 
-- TS...
+id
+name
+raza/especie
+isAdopted
+padre/madre adoptivo = dueño
+Existe una lista inicial (TS)
 
-## Installation
+Se listan las mascotas
 
-- TS
+-------- Create - Read - Update - Delete
 
-```shell
-npm i -D typescript
-```
+Se puede añadir mascotas
 
-- config TS
+Se borran mascotas
 
-```shell
-npx tsc --init
-```
+Se puede adoptar una mascotas |-> opcional
 
-- eslint & TS
+----- Componentes: Clases: Component / Cada componente
 
-```shell
-npx eslint --init
+--- Header --- Footer --- Lista --- Item (Mascota)
 
-Consecuencia
-npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-xo
-```
+--- Añadir
 
-- eslint + prettier
+Opcional
+Añade una página Home, junto con la página de Lista y permite navegar entre ellas mediante un menú
 
-```shell
-npm i -D eslint-config-prettier
-```
-
-- Jest
-
-```shell
-
-npm i -D jest ts-jest @types/jest @types/node jest-ts-webcompat-resolver
-npm i -D identity-obj-proxy
-```
-
-jest-DOM environment
-
-```shell
-npm i -D jest-environment-jsdom 
-```
-
-Testing-library
-
-```shell
-npm i -D @testing-library/dom @testing-library/jest-dom @testing-library/user-event
-```
+LO MAS IMPORTANTE y CRÍTICO
+Testamos todos
